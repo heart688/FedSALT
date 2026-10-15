@@ -1,0 +1,19 @@
+{
+  "model": {
+    "local_adaptation": true,
+    "history": 12,
+    "horizon": 6,
+    "dim": 128,
+    "routing_dim": 16,
+    "ff_dim": 256,
+    "layers": 3,
+    "rank": 4,
+    "dropout": 0.1
+  },
+  "local_adaptation_config": {
+    "optimizer": "Adam",
+    "learning_rate": 0.002,
+    "loss": "MAE in physical speed units",
+    "anchor_coefficient": 0.05
+  }
+}
