@@ -8,9 +8,9 @@ FedSALT combines a kernel-based traffic backbone with selective Q/K low-rank ada
 
 ## Quick start
 
+Download and extract the repository ZIP from the [anonymous review page](https://anonymous.4open.science/r/WWW2027--FedSALT/). Open a terminal in the extracted directory containing `model.py`, then install the dependency:
+
 ```sh
-git clone https://github.com/heart688/FedSALT.git
-cd FedSALT
 python -m pip install -r requirements.txt
 ```
 
